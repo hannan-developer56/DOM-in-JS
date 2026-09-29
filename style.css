@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #d86343, #cfdef3);
+font-family: Arial, sans-serif;
+}
+
+.header {
+width: 380px;
+padding: 30px;
+text-align: center;
+background: #9b7878;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#image {
+width: 220px;
+height: 220px;
+object-fit: cover;
+border-radius: 15px;
+margin-bottom: 20px;
+box-shadow: 0 5px 15px rgba(194, 10, 10, 0.15);
+}
+
+.header h3 {
+font-size: 24px;
+color: #222;
+margin-bottom: 15px;
+}
+
+.header p {
+color: #331f1f;
+font-size: 15px;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+.header p b {
+color: #222;
+}
+
+.header h4 {
+font-size: 20px;
+color: #333;
+margin-bottom: 25px;
+}
+
+.header h4 i {
+color: #141516;
+margin-left: 5px;
+}
+
+#username {
+width: 100%;
+padding: 12px;
+margin-bottom: 15px;
+border: none;
+border-radius: 8px;
+outline: none;
+}
+
+#welcome {
+color: white;
+margin-bottom: 15px;
+}
+
+.btn {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 12px;
+}
+
+.btn button {
+padding: 12px 18px;
+border: none;
+border-radius: 8px;
+background: #345a83;
+color: white;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.btn button:hover {
+background: #0056b3;
+transform: translateY(-2px);
+}
+
+.btn button:last-child {
+background: #333;
+}
+
+.btn button:last-child:hover {
+background: #111;
+}
